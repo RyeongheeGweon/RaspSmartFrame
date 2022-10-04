@@ -53,6 +53,8 @@ for wg in win.grid_slaves():
     wg.destroy()
 '''
 
+
+
 photoCanvas = Canvas(win, background='black')
 photoCanvas.config(width=1280, height=720, bd=0, highlightthickness=0)
 photoCanvas.grid(column=0, row=0)
